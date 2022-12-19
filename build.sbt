@@ -24,7 +24,7 @@ resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repos
 
 libraryDependencies += "com.badlogicgames.ashley" % "ashley" % "1.7.3"
 libraryDependencies ++= {
-  val version = "1.9.11-SNAPSHOT"
+  val version = "1.9.11"
   Seq(
     "com.badlogicgames.gdx" % "gdx" % version,
     "com.badlogicgames.gdx" % "gdx-backend-lwjgl3" % version,
